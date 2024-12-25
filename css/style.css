@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #07081A;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid #261C51;
+    height: 64px;
+    color: #FFF;
+    justify-content: space-between;
+    padding: 14px 200px;
+}
+
+.header-items{
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.nav{
+    display: flex;
+    gap: 16px;
+    font-family: Inter;
+    padding-top: 10px;
+}
+
+.logo{
+    max-width: 99px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.special-col{
+    color: #B968DE;
+}
+
+.profile{
+    margin-top: 5px;
+    background: #9100D3;
+    border-radius: 8px;
+    max-width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+/*here starts main */
+
+main{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero{
+    padding-top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    max-width: 600px;       
+}
+
+
+.download-btn{
+    border-radius: 8px;
+    background: #9100D3;
+    padding: 12px 24px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.title{
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px;
+}
+
+
+.text-1{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.logos{
+    padding-top: 88px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+.img-svg{
+    height: 48px;
+    max-width: 151px;
+
+
+}
+
+
+.cards-div{
+    padding-top: 88px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 64px;
+    padding-bottom: 88px;
+}
+
+
+.card{
+    max-width: 304px;
+    height: 204px;
+    border: 1px solid #261C51;
+    border-radius: 8px;
+    align-items: center;
+}
+
+
+.card-header{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 16px 24px;
+}
+
+
+.card-text{
+    color: #C0C0C0;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+footer{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    height: 64px;
+    border-top: #261C51 1px solid;
+}
+
+
+
+.small-icons{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    gap: 24px;
+
+}
+
+
+.rights{
+    font-family: Inter;
+}
+
+
+.icon-div{
+    display: flex;
+    gap: 24px;
+}
